@@ -21,6 +21,9 @@ b1.addEventListener('click', function () {
             p2.classList.add('loser');
             b1.disabled = true;
             b2.disabled = true;
+            setTimeout(() => {
+                alert("Player 1 won the game");
+            }, 300);
         }
         p1.innerText = sc1;
     }
@@ -35,6 +38,10 @@ b2.addEventListener('click', function () {
             gameover = true;
             b1.disabled = true;
             b2.disabled = true;
+            setTimeout(() => {
+                alert("Player 2 won the game");
+            }, 300);
+
         }
         p2.innerText = sc2;
     }
