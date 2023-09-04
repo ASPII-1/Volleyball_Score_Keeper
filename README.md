@@ -1,4 +1,5 @@
-#Volleyball Score Keeper
+**Volleyball Score Keeper**
+
 This is a simple Volleyball score keeper project built using JavaScript and the Bulma CSS framework. The purpose of this project is to provide a basic web application for keeping track of scores during a volleyball game.
 
 
